@@ -30,7 +30,8 @@ import getstarted from './get-started.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import arrowdown from './arrow-down.svg'
+import arrowdown from './arrow-down.svg';
+import arrow from './arrow.svg';
 export {
   logo,
   backend,
@@ -63,4 +64,5 @@ export {
   tripguide,
   arrowdown,
   getstarted,
+  arrow,
 };

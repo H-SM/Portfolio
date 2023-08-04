@@ -1,8 +1,16 @@
 import React from 'react'
-
+import { technologies } from '../constants'
 const Tech = () => {
   return (
-    <div>Tech</div>
+    <div className='flex items-center justify-center m-[55px]'>
+    <div className='flex flex-wrap justify-center gap-10 w-[850px] mt-11'>
+      {technologies.map((technology)=>(
+        <div className='flex justify-center items-center w-28 h-28'>
+          <img src={technology.icon} alt={technology.name} />
+        </div>
+      ))}
+    </div>
+    </div>
   )
 }
 

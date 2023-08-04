@@ -8,6 +8,7 @@ import { arrowdown } from '../assets';
 
 const About = () => (
     <>
+    <div>
   <section className={`${styles.padding} relative z-10`}>
     
     <div className='gradient-02 z-0'></div>
@@ -35,6 +36,7 @@ const About = () => (
       </motion.img>
     </motion.div>
   </section>
+  </div>
   </>
 );
 

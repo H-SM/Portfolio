@@ -24,6 +24,11 @@ import {
     tripguide,
     threejs,
   } from "../assets";
+  export const startingFeatures = [
+    'Eager to contribute in projects & enhance my technical-skills',
+    'Aim to leverage my problem-solving abilities',
+    'Passion for designing intuitive user interfaces',
+  ];
   
   export const navLinks = [
     {

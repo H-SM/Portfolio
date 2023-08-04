@@ -10,11 +10,12 @@ const App = () =>{
       {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
       <Navbar/>
       <Hero/>
-      <div className="relative z-0">
+      <div className="relative">
       <WhoamI/>
       <div className="gradient-03 z-0" />
-      <About/>
       </div>
+      <About/>
+
       <Experience/>
       <Tech/>
       <Works/>

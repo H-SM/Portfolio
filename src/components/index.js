@@ -1,4 +1,7 @@
 import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import WhoamI from './WhoamI';
+import { TypingText, TitleText } from './CustomTexts';
+
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -21,5 +24,8 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Footer
+  Footer,
+  TypingText, 
+  TitleText,
+  WhoamI
 }

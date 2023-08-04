@@ -17,17 +17,17 @@ const styles = {
 
     // hero section
     heroHeading:
-      'font-bold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+      'font-extrabold lg:text-[144px] md:text-[100px] sm:text-[60px] text-[44px] lg:leading-[158.4px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
 
     heroTopperHeading:
-      'font-bold lg:text-[100px] md:text-[80px] sm:text-[60px] text-[44px] lg:leading-[120px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
+      'font-extrabold lg:text-[100px] md:text-[80px] sm:text-[60px] text-[44px] lg:leading-[120px] md:leading-[114.4px] sm:leading-[74.4px] leading-[64.4px] uppercase text-white',
     heroDText:
       'md:w-[212px] sm:w-[80px] w-[60px] md:h-[108px] sm:h-[48px] h-[38px] md:border-[18px] border-[9px] rounded-r-[50px] border-white sm:mx-2 mx-[6px]',
 
     heroHeadText:
-      "font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
+      "font-black text-white lg:text-[65px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
     heroSubText:
-      "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+      "text-[#dfd9ff] font-medium lg:text-[25px] sm:text-[20px] xs:text-[16px] text-[16px] leading-[30px] lg:leading-[33px]",
   
     sectionHeadText:
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",

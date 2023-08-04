@@ -8,8 +8,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins",  sans-serif;
-  /* "Eudoxus Sans", for my hero section */
+  font-family: "Eudoxus Sans",  sans-serif;
+  /* "Eudoxus Sans" Poppins, for my hero section */
   scroll-behavior: smooth;
   color-scheme: dark;
 }

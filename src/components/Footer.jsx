@@ -11,7 +11,7 @@ const Footer = () => {
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.padding} py-8 relative z-0`}
+    className={`${styles.padding} py-8 relative`}
   >
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
       <div className="flex items-center justify-between flex-wrap gap-5">
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    <div className="footer-gradient opacity-60"></div>
+    {/* <div className="footer-gradient opacity-60"></div> */}
 
     </div>
   </motion.footer>

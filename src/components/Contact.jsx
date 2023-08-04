@@ -6,6 +6,7 @@ import emailjs from '@emailjs/browser';
 import styles from '../styles';
 import { EarthCanvas } from './canvas';
 import { slideIn } from '../utils/motion';
+
 const Contact = () => {
   const [form, setForm] = useState({
     name: "",
@@ -15,12 +16,43 @@ const Contact = () => {
   const formRef = useRef();
   const[loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ... form, [name]: value})
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs.send(
+      'service_gmroj5r',
+      'template_nyzl7uh',{
+        from_name: form.name,
+        to_name: "Harman Singh",
+        from_email: form.email,
+        to_email:'harmanmalht777@gmail.com',
+        message: form.message,
+      },
+      'xvUuFiSRSxq5WwKeP' )
+      .then(() => {
+        setLoading(false);
+        alert('Thank You! I will get back to you as soon as possible.');
+        setForm({
+          name: '',
+          email:'',
+          message:'',
+        })
+      }, (error) => {
+          setLoading(false);
+          console.log(error.message);
+          alert('Something went wrong!');
+      })
+  };
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mx-[60px] z-20'>
+    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mx-[60px]'>
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
       className='flex-[0.75] bg-black/25 p-8 rounded-2xl'>

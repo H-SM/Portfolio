@@ -10,24 +10,30 @@ const App = () =>{
       {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center"> */}
       <Navbar/>
       <div className="relative">
-      <div className="gradient-03 z-0" />
+      {/* <div className="gradient-03 z-0" /> */}
       <Hero/>
       <WhoamI/>
       </div>
       <div className="relative">
       <About/>
-      <div className="gradient-04 z-0" />
+      <div className="gradient-03 z-0" />
       <About2/>
+      <div className="relative">
+      <div className="gradient-04 z-0" />
+      </div>
       <Experience/>
       </div>
+     
+      <div className="relative">
+      <div className="gradient-03 z-0 opacity-60" />
       <Tech/>
       <Works/>
+      </div>
       <div className="relative z-0">
       <Resume/>
       <Contact/>
       <Footer/>
       <StarsCanvas/>
-
       </div>
     </div>
     </BrowserRouter>

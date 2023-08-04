@@ -25,7 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import instagram from "./instagram.svg";
+import twitter from "./twitter.svg";
+import facebook from "./facebook.svg";
+import linkedin from "./linkedin.svg";
 import getstarted from './get-started.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -65,4 +68,8 @@ export {
   arrowdown,
   getstarted,
   arrow,
+  instagram,
+  twitter,
+  facebook,
+  linkedin,
 };

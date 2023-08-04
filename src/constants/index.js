@@ -23,6 +23,10 @@ import {
     jobit,
     tripguide,
     threejs,
+    twitter,
+    linkedin,
+    instagram,
+    facebook,
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -30,6 +34,25 @@ import {
     'Passion for designing intuitive user interfaces',
   ];
   
+  export const socials = [
+    {
+      name: 'twitter',
+      url: twitter,
+    },
+    {
+      name: 'linkedin',
+      url: linkedin,
+    },
+    {
+      name: 'instagram',
+      url: instagram,
+    },
+    {
+      name: 'facebook',
+      url: facebook,
+    },
+  ];
+
   export const navLinks = [
     {
       id: "about",

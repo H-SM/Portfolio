@@ -22,7 +22,7 @@ const Navbar = () => {
         HARMAN SINGH MALHOTRA
       </h2>
       {/* make the NAVBAR BURGER MENU HERE TODO:  */}
-      <img src={menu} alt="menu" className='w-[24px] h-[24px] object-contain' />
+      <img src={menu} alt="menu" className='w-[24px] h-[24px] object-contain'/>
     </div>
     </motion.nav>
   )

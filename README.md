@@ -13,3 +13,25 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/d
 rei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
 
 <hr/> 
+
+the TODO list: 
+
+
+- navbar functionality **
+- hsm  text {done}
+- spacing (sid) {done}
+- outline -> Data Analytics {done}
+- work experience changes 
+ - logo change 
+ - data change
+ - logo bg
+- tech stack image changes and color 
+- Project changes
+ - images addition
+ - detials addition 
+ - spacing (row) && mx-2 look over tablet 
+- resume link work & button style
+- contact form placeholder 
+- contact form color scheme
+- contact form mobile view
+- footer link works 

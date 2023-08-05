@@ -3,8 +3,9 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+
 import github from "./github.png";
-import menu from "./menu.svg";
+import menu from "./menu.png";
 import close from "./close.svg";
 import herobg from "./herobg.png"
 import css from "./tech/css.png";
@@ -20,22 +21,32 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
+
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import csi from './company/csi.png';
+import arb from './company/arb.png'
+
+
 import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import facebook from "./facebook.svg";
 import linkedin from "./linkedin.svg";
+
+
 import getstarted from './get-started.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import arrowdown from './arrow-down.svg';
 import arrow from './arrow.svg';
+
 export {
   logo,
   backend,
@@ -75,4 +86,6 @@ export {
   linkedin,
   hsm,
   hsmlogo,
+  csi,
+  arb
 };

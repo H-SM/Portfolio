@@ -24,6 +24,8 @@ import {
     tripguide,
     threejs,
     twitter,
+    csi,
+    arb,
     linkedin,
     instagram,
     facebook,
@@ -146,8 +148,8 @@ import {
     {
       title: "Design Intern",
       company_name: "Apna Roti Bank",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: arb,
+      iconBg: "#E6DEDD",
       date: "Jun 2022 - Aug 2022",
       points: [
         "Executed design strategies and upheld brand coherence across a diverse range of over 15+ projects.",
@@ -158,9 +160,9 @@ import {
     {
       title: "Associate Design & VFX Head",
       company_name: "UPES - CSI Student Chapter",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      icon: csi,
+      iconBg: "#383E56",
+      date: "Sep 2022 - present",
       points: [
         "Led a team of 9 designers and visual effects artists, overseeing all aspects of design and VFX over 20+projects.",
         "Implemented design strategies and maintained brand consistency across 20+ projects and increasedbrand awareness by 30%.",

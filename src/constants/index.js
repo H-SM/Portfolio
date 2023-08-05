@@ -26,7 +26,7 @@ import {
     olympic,
     hospital,
     threejs,
-    twitter,
+    spotify,
     csi,
     arb,
     linkedin,
@@ -36,7 +36,9 @@ import {
     python,
     express,
     vercel,
-    vite
+    vite,
+    github,
+    discord
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -46,20 +48,24 @@ import {
   
   export const socials = [
     {
-      name: 'twitter',
-      url: twitter,
+      name: 'github',
+      url: github,
+      link: "https://github.com/H-SM",
     },
     {
       name: 'linkedin',
       url: linkedin,
+      link: 'https://www.linkedin.com/in/harman-singh-hsm',
     },
     {
       name: 'instagram',
       url: instagram,
+      link: "https://instagram.com/hsmpaaji?igshid=ZGUzMzM3NWJiOQ==",
     },
     {
-      name: 'facebook',
-      url: facebook,
+      name: 'spotify',
+      url: spotify,
+      link: 'https://open.spotify.com/user/9m5r99zyz8uow0us14xu2vhg1',
     },
   ];
 

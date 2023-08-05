@@ -41,6 +41,8 @@ import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
 import facebook from "./facebook.svg";
 import linkedin from "./linkedin.svg";
+import discord from "./discord.png";
+import spotify from "./spotify.png";
 
 
 import getstarted from './get-started.png';
@@ -110,4 +112,6 @@ export {
   vite,
   vercel,
   CV,
+  discord,
+  spotify,
 };

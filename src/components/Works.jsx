@@ -20,9 +20,9 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
           className="black-gradient w-[50px] h-[50px] rounded-full flex justify-center items-center cursor-pointer transition ease-linear hover:scale-105 hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2">
             <img src={github} alt="ghub" className='w-[65%] h-[65%] object-contain'/>
         </div>
-          <div onClick={() => window.open(url_link,"_blank")}
+          <div onClick={() =>{if(url_link){ window.open(url_link,"_blank")}else{alert("This application has no deployed link, You can still visit up the code for it!")}}}
           className="black-gradient w-[50px] h-[50px] rounded-full flex justify-center items-center cursor-pointer transition ease-linear hover:scale-105 hover:shadow-cyan-500/90 hover:ring-green-300/80 hover:ring-2">
-            <img src={arrow} alt="ghub" className='w-[45%] h-[45%] object-contain'/>
+            <img src={arrow} alt="ghub" className='w-[45%] h-[45%] object-contain'/> 
           </div>
         </div>
 

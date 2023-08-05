@@ -18,14 +18,6 @@ the TODO list:
 
 
 - navbar functionality **
-- hsm  text {done}
-- spacing (sid) {done}
-- outline -> Data Analytics {done}
-- work experience changes 
- - logo change 
- - data change
- - logo bg
-- tech stack image changes and color 
 - Project changes
  - images addition
  - detials addition 

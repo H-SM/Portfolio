@@ -1,6 +1,6 @@
 import React from 'react'
 import { TitleText, TypingText } from './CustomTexts';
-
+import { CV } from '../assets';
 const Resume = () => {
   return (
     <div className='mt-[100px]'>
@@ -8,7 +8,13 @@ const Resume = () => {
     <TitleText title={<>Link for my Resume</>} textStyle="text-center"/>
     <div className='flex justify-center items-center'>
     <div>
-    <button className='bg-sky-500 hover:bg-sky-700 rounded-full px-8 py-3 text-[20px] my-8 ' >Go to My Resume</button>
+    <a
+        href={CV}
+        target='_blank'
+        rel='noopener noreferrer'
+    >
+    <button className='bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%  rounded-full px-8 py-3 text-[20px] my-8 transition duration-0 hover:duration-500 ease-linear hover:shadow-lg hover:shadow-cyan-500/50 font-bold' >Go to My Resume</button>
+    </a>
     </div>
     </div>
     </div>

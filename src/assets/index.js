@@ -43,10 +43,20 @@ import facebook from "./facebook.svg";
 import linkedin from "./linkedin.svg";
 
 
-import getstarted from './get-started.png'
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import getstarted from './get-started.png';
+import CV from './CV/HSM_Resume.pdf'
+
+import chatify from "./chatify.png";
+import chess from "./chess.png";
+import shirtcraft from "./shirtcraft.png";
+import facedetection from "./facedetection.png";
+import madnessui from "./madnessui.png";
+import iNotebook from "./iNotebook.png";
+import olympic from "./olympic.png";
+import hospital from "./hospital.png";
+
+
+
 import arrowdown from './arrow-down.svg';
 import arrow from './arrow.svg';
 
@@ -75,9 +85,14 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  chatify,
+  chess,
+  shirtcraft,
+  facedetection,
+  madnessui,
+  iNotebook,
+  olympic,
+  hospital,
   arrowdown,
   getstarted,
   arrow,
@@ -94,4 +109,5 @@ export {
   express,
   vite,
   vercel,
+  CV,
 };

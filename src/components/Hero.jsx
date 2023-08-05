@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
-import { herobg } from '../assets';
+import { herobg, hsm } from '../assets';
 const Hero = () => {
   return (
     <>
@@ -20,11 +20,11 @@ const Hero = () => {
           </motion.h1>
           <motion.div
           variants={textVariant(1.2)} className='flex flex-row justify-center items-center'>
-            <h1 className={styles.heroHeading}>H</h1>
+            <img src={hsm} alt="gif" className='w-[356px] h-[200px]'/>
+            {/* <h1 className={styles.heroHeading}>H</h1> */}
             {/* <div className={styles.heroDText}></div> */}
-            <h1 className={`${styles.heroHeading} font`}>S</h1>
-            {/* think about something new here TODO: */}
-            <h1 className={styles.heroHeading}>M</h1>            
+            {/* <h1 className={`${styles.heroHeading} font`}>S</h1> */}
+            {/* <h1 className={styles.heroHeading}>M</h1>             */}
           </motion.div>
       </div>
     </motion.div>

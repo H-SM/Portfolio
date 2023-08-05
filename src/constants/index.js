@@ -78,7 +78,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Open Source Enthusiast",
+      title: "Data Analytics",
       icon: backend,
     },
     {

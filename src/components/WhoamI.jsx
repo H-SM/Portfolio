@@ -22,13 +22,13 @@ const About = () => (
       <motion.p
       variants={fadeIn('up','tween',0.2,1)}
       className='mt-[8px] font-normal sm:text-[29px] text-[18px] text-center text-secondary-white'>
-        Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhortra.</span>
-         A 
+        Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhortra. </span>
+          A 
         <span className='font-extrabold text-white'> full-stack enthusiast</span> 
         , showcasing diverse 
         <span className='font-extrabold text-white'> projects on GitHub</span>
         , exploring web software realms. Passionate about 
-        <span className='font-extrabold text-white'> coding & creating innovative solutions.</span>
+        <span className='font-extrabold text-white'> coding & creating innovative solutions. </span>
         "Innovative lines of code intertwining to craft digital solutions that inspire and impact."
       </motion.p>
       <motion.img

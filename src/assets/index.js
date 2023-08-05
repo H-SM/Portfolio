@@ -20,7 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import hsm from "./hsm.gif";
+import hsmlogo from "./hsm_logo.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -72,4 +73,6 @@ export {
   twitter,
   facebook,
   linkedin,
+  hsm,
+  hsmlogo,
 };

@@ -9,8 +9,6 @@ import menu from "./menu.png";
 import close from "./close.svg";
 import herobg from "./herobg.png"
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
@@ -20,7 +18,12 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import cpp from "./tech/c++.png";
+import python from "./tech/python.png";
+import express from "./tech/expressjs.png";
+import vite from "./tech/vite.png";
+import vercel from "./tech/vercel.png";
+import threejs from './tech/threejs.png'
 
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
@@ -58,8 +61,6 @@ export {
   menu,
   close,
   css,
-  docker,
-  figma,
   git,
   html,
   javascript,
@@ -87,5 +88,10 @@ export {
   hsm,
   hsmlogo,
   csi,
-  arb
+  arb,
+  cpp,
+  python,
+  express,
+  vite,
+  vercel,
 };

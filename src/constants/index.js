@@ -13,8 +13,6 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     meta,
     starbucks,
     tesla,
@@ -29,6 +27,11 @@ import {
     linkedin,
     instagram,
     facebook,
+    cpp,
+    python,
+    express,
+    vercel,
+    vite
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -91,6 +94,14 @@ import {
   
   const technologies = [
     {
+      name: "cpp",
+      icon: cpp,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -126,21 +137,26 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "express",
+      icon: express,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "vercel",
+      icon: vercel,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "vite",
+      icon: vite,
     },
   ];
   

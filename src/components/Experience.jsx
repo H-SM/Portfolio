@@ -39,7 +39,8 @@ const Experience = () => {
     <>
       <motion.div
       variants={textVariant()}
-      className='mt-[45px]'>
+      className='mt-[45px]'
+      id="Experience">
       <TypingText title="| where have I worked? " textStyle="text-center"/>
       <TitleText title={<> My Work Experience<br className='md:block hidden'/></>} textStyle="text-center"/>
       </motion.div>

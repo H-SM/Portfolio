@@ -14,7 +14,7 @@ const Hero = () => {
     whileInView="show"
     viewport={{ once: false, amount: 0.25}}
     className={`${styles.innerWidth} mx-auto flex flex-col`}>
-      <div className='flex justify-center items-center flex-col relative z-20' style={{fontFamily:'Poppins'}}>
+      <div className='flex justify-center items-center flex-col relative' style={{fontFamily:'Poppins'}}>
           <motion.h1 variants={textVariant(1.1)} className={styles.heroTopperHeading}>
             HELLO, THIS IS
           </motion.h1>

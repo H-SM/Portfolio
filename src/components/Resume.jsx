@@ -3,7 +3,7 @@ import { TitleText, TypingText } from './CustomTexts';
 import { CV } from '../assets';
 const Resume = () => {
   return (
-    <div className='mt-[100px]'>
+    <div className='mt-[100px]' id="Resume">
     <TypingText title="| wanna look further into me?" textStyle="text-center"/>
     <TitleText title={<>Link for my Resume</>} textStyle="text-center"/>
     <div className='flex justify-center items-center'>

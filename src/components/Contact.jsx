@@ -52,10 +52,10 @@ const Contact = () => {
   };
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mx-[60px]'>
+    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mx-[60px]' id="Contact">
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
-      className='flex-[0.75] bg-black/25 p-8 rounded-2xl'>
+      className='flex-[0.75] bg-black/25 p-8 rounded-2xl min-w-[300px]'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>

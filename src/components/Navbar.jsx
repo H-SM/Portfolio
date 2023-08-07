@@ -2,28 +2,64 @@ import React,{ useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import styles from '../styles';
-import { navVariants } from '../utils/motion';
-import {  menu, hsmlogo } from '../assets';
+import { navVariants2 } from '../utils/motion';
+import {  menu, hsmlogo, close } from '../assets';
 import { navLinks } from '../constants';
 import '../index.css';
 
+
 const Navbar = () => {
+  const [opener, setOpener] = useState(false);
+
+  const handleClick = () => {
+  setOpener(!opener);
+  }
   return (
     <motion.nav
-    variants={navVariants}
+    variants={navVariants2}
     initial="hidden"
     whileInView="show"
     className={`${styles.paddingX} py-8 relative`}
   >
     <div className='absolute w-[50%] inset-0 z-0 gradient-01'></div>
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
-      <img src={hsmlogo} alt="srch" className='w-[71px] h-[40px] object-contain' />
-      <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
-        HARMAN SINGH MALHOTRA
-      </h2>
-      {/* make the NAVBAR BURGER MENU HERE TODO:  */}
-      <img src={menu} alt="menu" className='w-[24px] h-[24px] object-contain'/>
-    </div>
+  <img
+    id="menu-button"
+    aria-expanded="false"
+    aria-haspopup="true"
+    src={hsmlogo}
+    alt="srch"
+    className='w-[71px] h-[40px] object-contain'
+  />
+  <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
+    HARMAN SINGH MALHOTRA
+  </h2>
+      <div className="relative inline-block text-left">
+  <img src={menu} alt="menu" className="w-[24px] h-[24px] object-contain z-3" onClick={handleClick}/>
+  <motion.div
+  variants={navVariants2}
+  // variants={fadeIn('right','tween',0,0.2)}
+    initial="hidden"
+    whileInView="show" 
+  className={`${opener?"absolute":"hidden"} right-0 z-10 mt-2 w-56 origin-top-right rounded-md xs:bg-cyan-800/10 shadow-lg shadow-cyan-500/70 focus:outline-none transition duration-75 ease-in-out bg-cyan-900/90`} id="menu">
+    <div className='flex justify-end' onClick={handleClick}>
+    <a href="#" className="text-slate-300 block px-4 py-1 z-30 right-1" role="menuitem" id="menu-item-6">
+    <div className='mx-3 my-2 mt-2' >
+    <img src={close} alt="clocse btn"  />
+    </div></a>
+    </div>  
+
+    <a href="#Overview" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition  duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-0">Overview</a>
+    <a href="#Experience" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-1">Experience</a>
+    <a href="#Projects" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-2">Projects</a>
+    <a href="#Resume" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-3">Resume</a>
+    <a href="#Contact" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1" role="menuitem z-30" id="menu-item-4">Contact</a>
+  </motion.div>
+</div>
+
+    
+</div>
+
     </motion.nav>
   )
 }

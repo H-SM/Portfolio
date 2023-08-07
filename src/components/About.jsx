@@ -29,7 +29,7 @@ const About = () => {
         </motion.div>
         <motion.div
         variants={fadeIn('left','tween',0.25,1)}
-        className='flex-[0.75] flex justify-center flex-col'>
+        className='flex-[0.75] flex justify-center flex-col' id="Overview">
 
           <TypingText title="| My Introduction"/>
           <TitleText title={<>A Quick Overview</>}/>

@@ -7,7 +7,7 @@ import { herobg, hsm } from '../assets';
 const Hero = () => {
   return (
     <>
-    <section className={`${styles.paddingY} ms:pl-16 pl-6`}>
+    <section className={`${styles.paddingY} ms:pl-16 pl-6 my-11`}>
     <motion.div 
     variants={staggerContainer} 
     initial="hidden" 

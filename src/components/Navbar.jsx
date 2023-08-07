@@ -41,10 +41,10 @@ const Navbar = () => {
   // variants={fadeIn('right','tween',0,0.2)}
     initial="hidden"
     whileInView="show" 
-  className={`${opener?"absolute":"hidden"} right-0 z-10 mt-2 w-56 origin-top-right rounded-md xs:bg-cyan-800/10 shadow-lg shadow-cyan-500/70 focus:outline-none transition duration-75 ease-in-out bg-cyan-900/90`} id="menu">
+  className={`${opener?"absolute":"hidden"} right-0 z-10 mt-2 w-56 origin-top-right rounded-md lg:bg-cyan-800/10 shadow-lg shadow-cyan-500/70 focus:outline-none transition duration-75 ease-in-out bg-cyan-900/90`} id="menu">
     <div className='flex justify-end' onClick={handleClick}>
     <a href="#" className="text-slate-300 block px-4 py-1 z-30 right-1" role="menuitem" id="menu-item-6">
-    <div className='mx-3 my-2 mt-2' >
+    <div className='mx-1 my-2 mt-3' >
     <img src={close} alt="clocse btn"  />
     </div></a>
     </div>  

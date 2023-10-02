@@ -227,6 +227,29 @@ import {
   
   const projects = [
     {
+      name: "NoteHaven",
+      description:
+        "your notebook on the cloud - taking up our notes in cloud - what to do, what can I do during the day, these questions will be answered based on what you have put up in the TO DO list in the notes..",
+      tags: [
+        {
+          name: "mongodb",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jwt-token",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: iNotebook,
+
+      source_code_link: "https://github.com/H-SM/iNotebook",
+      url_link: "https://note-haven-h-sm.vercel.app ",
+    },
+    {
       name: "Chatify",
       description:
         "Chatify is a versatile and feature-rich chat application designed to enhance communication among individuals. Chatify provides a seamless chatting experience across multiple platforms",
@@ -335,29 +358,6 @@ import {
       image: madnessui,
       source_code_link: "https://github.com/H-SM/MetaMadnessUI/",
       url_link: "https://meta-madness-h-sm.vercel.app/",
-    },
-    {
-      name: "iNotebook",
-      description:
-        "your notebook on the cloud - taking up our notes in cloud - what to do, what can I do during the day, these questions will be answered based on what you have put up in the TO DO list in the notes..",
-      tags: [
-        {
-          name: "mongodb",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "react",
-          color: "green-text-gradient",
-        },
-        {
-          name: "jwt-token",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: iNotebook,
-
-      source_code_link: "https://github.com/H-SM/iNotebook",
-      url_link: null,
     },
     {
       name: "Olympics Tracker",

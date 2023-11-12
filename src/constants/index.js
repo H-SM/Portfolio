@@ -24,7 +24,7 @@ import {
     madnessui,
     iNotebook,
     olympic,
-    hospital,
+    graphpath,
     threejs,
     spotify,
     csi,
@@ -250,6 +250,28 @@ import {
       url_link: "https://note-haven-h-sm.vercel.app ",
     },
     {
+      name: "Graph Path Guru",
+      description:
+        "An interactive React app with a C++ backend for visualizing and understanding shortest path algorithms. It aids education, algorithm testing, and practical routing scenarios, catering to students, educators, researchers, and professionals.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "cpp",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphpath,
+      source_code_link: "https://github.com/H-SM/GraphPathGuru",
+      url_link: null,
+    },
+    {
       name: "Chatify",
       description:
         "Chatify is a versatile and feature-rich chat application designed to enhance communication among individuals. Chatify provides a seamless chatting experience across multiple platforms",
@@ -380,28 +402,6 @@ import {
       image: olympic,
       source_code_link: "https://github.com/H-SM/gfgOlympics",
       url_link: "https://gfg-olympics.vercel.app/",
-    },
-    {
-      name: "Hospital Management System",
-      description:
-        "Elevate healthcare efficiency using a blockchain-integrated Hospital Management System for secure and streamlined operations. Submission for 'GFG Hackathon March 2023'",
-      tags: [
-        {
-          name: "sass",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "nodeJS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "JS",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: hospital,
-      source_code_link: "https://github.com/H-SM/Hospital-Management-System",
-      url_link: null,
     },
   ];
   

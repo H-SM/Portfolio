@@ -56,7 +56,7 @@ import madnessui from "./madnessui.png";
 import iNotebook from "./iNotebook.png";
 import olympic from "./olympic.png";
 import hospital from "./hospital.png";
-
+import graphpath from "./graphpath.png";
 
 
 import arrowdown from './arrow-down.svg';
@@ -114,4 +114,5 @@ export {
   CV,
   discord,
   spotify,
+  graphpath,
 };

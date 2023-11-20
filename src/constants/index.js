@@ -86,15 +86,15 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
-      title: "Data Analytics",
+      title: "Open Source",
       icon: backend,
     },
     {
@@ -161,10 +161,10 @@ import {
       name: "vercel",
       icon: vercel,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "vite",
       icon: vite,

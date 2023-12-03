@@ -11,7 +11,7 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
   return(
     <motion.div
     variants={fadeIn("up","spring", index*0.5, 0.75)}>
-      <div className='bg-black/25 hover:bg-black/40 p-5 rounded-2xl sm:w-[360px] w-full transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2'>
+      <div className='bg-black/25 hover:bg-black/40 p-5 rounded-2xl sm:w-[360px] w-full h-[26rem] transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 flex flex-col justify-between max-w-[26rem]'>
         <div className='relative w-full h-[150px]'>
           <img src={image} alt="something" className='w-full h-full object-cover rounded-2xl'/>
 
@@ -57,8 +57,8 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='flex justify-center items-center'>
-      <div className='mt-20 md:mx-[60px] flex flex-wrap gap-7 max-w-[1600px]'>
+      <div className='flex justify-center items-center mt-20 md:mx-[60px] gap-7'>
+        <div className='grid lg:grid-cols-2 xl:grid-cols-3 md:grid-cols-2 gap-7'>
       {projects.map((project, index) => (
         <ProjectCard key={index} index={index} {...project}/>
       ))}

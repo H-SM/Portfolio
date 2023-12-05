@@ -293,50 +293,50 @@ import {
       source_code_link: "https://github.com/H-SM/Chatify",
       url_link: "https://chatify-phi.vercel.app/",
     },
-    {
-      name: "Chess",
-      description:
-        "This application provides a digital platform to play the classic game of chess online. It features an intuitive user interface, interactive gameplay, and supports standard chess rules and moves.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "typescript",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:  chess,
-      source_code_link: "https://github.com/H-SM/Chess",
-      url_link: "https://6494f1f87b65d61a2deb525d--funny-marzipan-7f1bb7.netlify.app/",
-    },
-    {
-      name: "ShirtCraft",
-      description:
-        "ShirtCraft is an innovative SaaS project that lets users design their custom t-shirts with a variety of patterns and colors. Import local designs and unleash your creativity! 🎨👕",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "threejs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "framer-motion",
-          color: "pink-text-gradient",
-        },
-      ],
-      image:  shirtcraft,
-      source_code_link: "https://github.com/H-SM/ShirtCraft",
-      url_link: "https://shirt-craft.vercel.app/",
-    },
+    // {
+    //   name: "Chess",
+    //   description:
+    //     "This application provides a digital platform to play the classic game of chess online. It features an intuitive user interface, interactive gameplay, and supports standard chess rules and moves.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "typescript",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "scss",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image:  chess,
+    //   source_code_link: "https://github.com/H-SM/Chess",
+    //   url_link: "https://6494f1f87b65d61a2deb525d--funny-marzipan-7f1bb7.netlify.app/",
+    // },
+    // {
+    //   name: "ShirtCraft",
+    //   description:
+    //     "ShirtCraft is an innovative SaaS project that lets users design their custom t-shirts with a variety of patterns and colors. Import local designs and unleash your creativity! 🎨👕",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "threejs",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "framer-motion",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image:  shirtcraft,
+    //   source_code_link: "https://github.com/H-SM/ShirtCraft",
+    //   url_link: "https://shirt-craft.vercel.app/",
+    // },
     {
       name: "Deep Face Detection Model",
       description:
@@ -359,50 +359,50 @@ import {
       source_code_link: "https://github.com/H-SM/deep_face_detection_model",
       url_link: null,
     },
-    {
-      name: "MetaMadnessUI",
-      description:
-        "Metaverse Madness: Step into a boundless realm of virtual wonder with our cutting-edge UI. Embrace limitless possibilities and connect like never before in the ultimate metaverse experience.🪐🪐",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "framer-motion",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: madnessui,
-      source_code_link: "https://github.com/H-SM/MetaMadnessUI/",
-      url_link: "https://meta-madness-h-sm.vercel.app/",
-    },
-    {
-      name: "Olympics Tracker",
-      description:
-        `A data driven hub for all Olympic 2020 Stats in from of the user. Diverse charts and graphical representation of various nations according to there standing in the Olympics! Submission for 'Geek-o-lypmic 2023'`,
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "chartjs",
-          color: "green-text-gradient",
-        },
-        {
-          name: "mapbox-gl",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: olympic,
-      source_code_link: "https://github.com/H-SM/gfgOlympics",
-      url_link: "https://gfg-olympics.vercel.app/",
-    },
+    // {
+    //   name: "MetaMadnessUI",
+    //   description:
+    //     "Metaverse Madness: Step into a boundless realm of virtual wonder with our cutting-edge UI. Embrace limitless possibilities and connect like never before in the ultimate metaverse experience.🪐🪐",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "framer-motion",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: madnessui,
+    //   source_code_link: "https://github.com/H-SM/MetaMadnessUI/",
+    //   url_link: "https://meta-madness-h-sm.vercel.app/",
+    // },
+    // {
+    //   name: "Olympics Tracker",
+    //   description:
+    //     `A data driven hub for all Olympic 2020 Stats in from of the user. Diverse charts and graphical representation of various nations according to there standing in the Olympics! Submission for 'Geek-o-lypmic 2023'`,
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "chartjs",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "mapbox-gl",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: olympic,
+    //   source_code_link: "https://github.com/H-SM/gfgOlympics",
+    //   url_link: "https://gfg-olympics.vercel.app/",
+    // },
   ];
   
   export { services, technologies, experiences, projects };

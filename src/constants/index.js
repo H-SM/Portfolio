@@ -269,7 +269,7 @@ import {
       ],
       image: graphpath,
       source_code_link: "https://github.com/H-SM/GraphPathGuru",
-      url_link: null,
+      url_link: "https://graph-path-guru-test.vercel.app/",
     },
     {
       name: "Chatify",

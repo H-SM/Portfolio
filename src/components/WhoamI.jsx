@@ -8,10 +8,11 @@ import { arrowdown } from '../assets';
 
 const About = () => (
     <>
-    <div>
-  <section className={`${styles.padding} relative z-10`}>
+    <div className='relative'>
+    <div className='absolute gradient-02 z-0 opacity-50'></div>
+  
+  <section className={`relative ${styles.padding} relative z-10`}>
     
-    <div className='gradient-02 z-0'></div>
     <motion.div
     variants={staggerContainer} 
     initial="hidden"

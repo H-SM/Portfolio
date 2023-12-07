@@ -52,10 +52,10 @@ const Contact = () => {
   };
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden mx-[60px]' id="Contact">
+    <div className='2xl:mt-12 flex justify-center xl:flex-col-reverse 2xl:flex-row flex-col-reverse items-center gap-2 overflow-hidden w-screen' id="Contact">
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
-      className='flex-[0.75] bg-black/25 p-8 rounded-2xl min-w-[300px]'>
+      className='bg-black/25 p-8 rounded-2xl mx-6 2xl:w-[40%]'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>
@@ -80,7 +80,7 @@ const Contact = () => {
 
       <motion.div
        variants={slideIn('right','tween',0.2,1)}
-       className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+       className='flex md:h-[550px] h-[70vh] w-[70vh]'>
         <EarthCanvas/>
       </motion.div>
     </div>

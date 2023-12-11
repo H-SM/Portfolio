@@ -55,7 +55,7 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
 const Works = () => {
   return (
     <>
-    <div className='mt-[100px]' id="Projects">
+    <div className='mt-[15rem]' id="Projects">
       <TypingText title="| what I have built?" textStyle="text-center"/>
       <TitleText title={<>A few of my Projects...</>} textStyle="text-center"/>
 

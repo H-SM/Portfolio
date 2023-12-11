@@ -25,7 +25,7 @@ const About = () => {
         className={`flex-1 ${styles.flexCenter}`}>
        
 
-          <img src={getstarted} alt="plnt-1" className='w-[100%] h-[100%] object-contain hover:scale-105 transition duration-500 hover:drop-shadow-xl hover:saturate-50 hover:shadow-cyan-500/90 hover: ease-in-out'/>
+          <img src={getstarted} alt="plnt-1" className='w-[100%] h-[100%] object-contain hover:scale-105 transition duration-500 hover:drop-shadow-xl hover:saturate-0 hover:shadow-cyan-500/90 hover: ease-in-out'/>
         </motion.div>
         <motion.div
         variants={fadeIn('left','tween',0.25,1)}

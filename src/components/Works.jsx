@@ -30,7 +30,7 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
 
 
         <div className='mt-2'>
-          <div className='flex flex-row items-center h-[2rem]'>
+          <div className='flex flex-row items-center'>
           <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           {prod &&
           <div className='my-1 rounded-sm  focus:border-none flex flex-row gap-1 hover:bg-opacity-5 hover:shadow-md hover:text-white/80 text-orange-400/80 text-[0.857rem] transition ease-in-out duration-200 items-center h-full px-1' title="Currently in production">

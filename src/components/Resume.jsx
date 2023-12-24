@@ -3,6 +3,7 @@ import { TitleText, TypingText } from './CustomTexts';
 import { CV } from '../assets';
 const Resume = () => {
   return (
+    <section className='relative z-10'>
     <div className='mt-[100px]' id="Resume">
     <TypingText title="| wanna look further into me?" textStyle="text-center"/>
     <TitleText title={<>Link for my Resume</>} textStyle="text-center"/>
@@ -18,6 +19,7 @@ const Resume = () => {
     </div>
     </div>
     </div>
+    </section>
   )
 }
 

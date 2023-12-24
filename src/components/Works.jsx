@@ -10,9 +10,10 @@ import { Navigate } from 'react-router-dom';
 
 const ProjectCard = ({ index, name , description, tags, image, source_code_link, url_link, prod}) => {
   return(
+    <section className='relative z-10'>
     <motion.div
     variants={fadeIn("up","spring", index*0.5, 0.75)}>
-      <div className='bg-black/25 hover:bg-black/40 p-5 rounded-2xl sm:w-[360px] w-fullh-fit transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 flex flex-col justify-evenly max-w-[36rem] h-[25rem]'>
+      <div className='bg-black/30 hover:bg-black/40 p-5 rounded-2xl sm:w-[360px] w-fullh-fit transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 flex flex-col justify-evenly max-w-[36rem] h-[25rem]'>
         <div className='relative w-full  max-h-[8rem] rounded-2xl overflow-hidden bg-no-repeat bg-cover '>
           <img src={image} alt="something" className='transition duration-300 ease-in-out hover:scale-105 '/>
         </div>
@@ -58,12 +59,13 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
       </div>   
       </div>
     </motion.div>
+    </section>
   )
 }
 const Works = () => {
   return (
-    <>
-    <div className='mt-[15rem]' id="Projects">
+    <section className='relative z-10'>
+    <div className='mt-[15rem] z-50' id="Projects">
       <TypingText title="| what I have built?" textStyle="text-center"/>
       <TitleText title={<>A few of my Projects...</>} textStyle="text-center"/>
 
@@ -83,7 +85,7 @@ const Works = () => {
       </div>
       </div>
     </div>
-    </>
+    </section>
   )
 }
 

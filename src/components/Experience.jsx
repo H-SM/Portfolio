@@ -36,10 +36,10 @@ const ExperienceCard = ({ experience }) => {
 }
 const Experience = () => {
   return (
-    <>
+    <section className={`relative z-10`}>
       <motion.div
       variants={textVariant()}
-      className='mt-[15rem]'
+      className='mt-[15rem] z-5'
       id="Experience">
       <TypingText title="| where have I worked? " textStyle="text-center"/>
       <TitleText title={<> My Work Experience<br className='md:block hidden'/></>} textStyle="text-center"/>
@@ -51,7 +51,7 @@ const Experience = () => {
           ))}
         </VerticalTimeline>
       </div>
-    </>
+    </section>
   )
 }
 

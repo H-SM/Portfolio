@@ -15,6 +15,7 @@ const Navbar = () => {
   setOpener(!opener);
   }
   return (
+    <section className='relative z-10'>
     <motion.nav
     variants={navVariants2}
     initial="hidden"
@@ -62,6 +63,7 @@ const Navbar = () => {
 </div>
 
     </motion.nav>
+    </section>
   )
 }
 

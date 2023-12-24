@@ -52,6 +52,7 @@ const Contact = () => {
   };
 
   return (
+    <section className='relative z-10'>
     <div className='2xl:mt-12 flex justify-center xl:flex-col-reverse 2xl:flex-row flex-col-reverse items-center gap-2 overflow-hidden w-screen' id="Contact">
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
@@ -84,6 +85,7 @@ const Contact = () => {
         <EarthCanvas/>
       </motion.div>
     </div>
+    </section>
   )
 }
 

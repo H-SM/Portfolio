@@ -27,7 +27,7 @@ const styles = {
     heroHeadText:
       "font-black text-white lg:text-[65px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
     heroSubText:
-      "text-[#dfd9ff] font-medium lg:text-[25px] sm:text-[20px] xs:text-[16px] text-[16px] leading-[30px] lg:leading-[33px]",
+      "text-[#dfd9ff] font-bold lg:text-[25px] sm:text-[20px] xs:text-[16px] text-[16px] leading-[30px] lg:leading-[33px]",
   
     sectionHeadText:
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",

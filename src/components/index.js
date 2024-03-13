@@ -1,4 +1,4 @@
-import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+// import { EarthCanvas, BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
 import WhoamI from './WhoamI';
 import { TypingText, TitleText } from './CustomTexts';
 import StartSteps from './StartSteps';
@@ -22,11 +22,7 @@ export {
   Experience,
   Works,
   Feedbacks,
-  Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
-  StarsCanvas,
+  Contact, 
   Footer,
   TypingText, 
   TitleText,

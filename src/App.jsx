@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 import { useEffect, useRef } from "react";
-import { About2, About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas, Footer, WhoamI, Resume } from './components';
-
+import { About2, About, Contact, Experience, Hero, Navbar, Tech, Works, Footer, WhoamI, Resume } from './components';
+import StarsCanvas from "./components/canvas/Stars";
 const App = () => {
   const blobRef = useRef(null);
 

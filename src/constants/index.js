@@ -38,7 +38,8 @@ import {
     vercel,
     vite,
     github,
-    discord
+    discord,
+    aieds
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -105,11 +106,11 @@ import {
   
   const technologies = [
     {
-      name: "cpp",
+      name: "C++",
       icon: cpp,
     },
     {
-      name: "python",
+      name: "Python",
       icon: python,
     },
     {
@@ -150,15 +151,15 @@ import {
     },
     
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "express",
+      name: "Express",
       icon: express,
     },
     {
-      name: "vercel",
+      name: "Vercel",
       icon: vercel,
     },
     // {
@@ -166,7 +167,7 @@ import {
     //   icon: threejs,
     // },
     {
-      name: "vite",
+      name: "Vite",
       icon: vite,
     },
   ];
@@ -227,27 +228,31 @@ import {
   
   const projects = [
     {
-      name: "NoteHaven",
+      name: "AIEDS",
       description:
-        "your notebook on the cloud - taking up our notes in cloud - what to do, what can I do during the day, these questions will be answered based on what you have put up in the TO DO list in the notes..",
+        "A tool which helps users control their learning process. AIDES harnesses the power of LLMs by providing text summaries and insights on user uploaded content. It also features active revision and quizing which makes learning even more fun and intuitive.",
       tags: [
         {
-          name: "mongodb",
+          name: "Prisma",
           color: "blue-text-gradient",
         },
         {
-          name: "react",
+          name: "Postgresql",
           color: "green-text-gradient",
         },
         {
-          name: "jwt-token",
+          name: "React",
           color: "pink-text-gradient",
         },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
       ],
-      image: iNotebook,
-
-      source_code_link: "https://github.com/H-SM/iNotebook",
-      url_link: "https://note-haven-h-sm.vercel.app ",
+      image: aieds,
+      source_code_link: "https://github.com/sakshamshahu/AIEDS",
+      // url_link: "https://chatify-phi.vercel.app/",
+      prod : true
     },
     {
       name: "Graph Path Guru",
@@ -270,29 +275,30 @@ import {
       image: graphpath,
       source_code_link: "https://github.com/H-SM/GraphPathGuru",
       url_link: "https://graph-path-guru-test.vercel.app/",
-      prod : true
+      // prod : true
     },
     {
-      name: "Chatify",
+      name: "NoteHaven",
       description:
-        "Chatify is a versatile and feature-rich chat application designed to enhance communication among individuals. Chatify provides a seamless chatting experience across multiple platforms",
+        "your notebook on the cloud - taking up our notes in cloud - what to do, what can I do during the day, these questions will be answered based on what you have put up in the TO DO list in the notes..",
       tags: [
         {
-          name: "prisma",
+          name: "mongodb",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react",
           color: "green-text-gradient",
         },
         {
-          name: "next",
+          name: "jwt-token",
           color: "pink-text-gradient",
         },
       ],
-      image: chatify,
-      source_code_link: "https://github.com/H-SM/Chatify",
-      url_link: "https://chatify-phi.vercel.app/",
+      image: iNotebook,
+
+      source_code_link: "https://github.com/H-SM/iNotebook",
+      url_link: "https://note-haven-h-sm.vercel.app ",
     },
     // {
     //   name: "Chess",

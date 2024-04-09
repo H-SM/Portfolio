@@ -1,17 +1,19 @@
 import React from 'react'
 import { technologies } from '../constants'
+import Technoicon from './Technoicon'
+import { TypingText } from './CustomTexts'
+
 const Tech = () => {
   return (
     <section className={`relative z-10`}>
-    <div className='flex items-center justify-center m-[55px] z-5'>
-    <div className='flex flex-wrap justify-center gap-10 w-[950px] mt-11 opacity-80'>
-      {technologies.map((technology)=>(
-        <div className='flex justify-center items-center w-28 h-28 z-5'>
-          <img src={technology.icon} alt={technology.name} />
+      <div className='flex flex-col items-center justify-center m-[55px] z-5'>
+        <div className='flex flex-wrap justify-center gap-10 w-[950px] mt-11 opacity-80'>
+          {technologies.map((technology) => (
+            <Technoicon technology={technology}/>
+          ))}
         </div>
-      ))}
-    </div>
-    </div>
+      </div>
+      <TypingText title="↑ Hover on the icons ↑" textStyle="text-center"/>
     </section>
   )
 }

@@ -49,6 +49,7 @@ import getstarted from './get-started.png';
 import CV from './CV/HSM_Resume.pdf'
 
 import chatify from "./chatify.png";
+import aieds from "./aieds.png";
 import chess from "./chess.png";
 import shirtcraft from "./shirtcraft.png";
 import facedetection from "./facedetection.png";
@@ -115,4 +116,5 @@ export {
   discord,
   spotify,
   graphpath,
+  aieds
 };

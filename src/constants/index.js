@@ -39,6 +39,9 @@ import {
     vite,
     github,
     discord,
+    docker,
+    figma,
+    postgres,
     aieds
   } from "../assets";
   export const startingFeatures = [
@@ -113,14 +116,14 @@ import {
       name: "Python",
       icon: python,
     },
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },postgres
     {
       name: "JavaScript",
       icon: javascript,
@@ -149,7 +152,10 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
-    
+    {
+      name: "PostgreSQL",
+      icon: postgres,
+    },
     {
       name: "Git",
       icon: git,
@@ -158,17 +164,17 @@ import {
       name: "Express",
       icon: express,
     },
-    {
-      name: "Vercel",
-      icon: vercel,
-    },
     // {
-    //   name: "Three JS",
-    //   icon: threejs,
+    //   name: "Vercel",
+    //   icon: vercel,
     // },
     {
-      name: "Vite",
-      icon: vite,
+      name: "Docker",
+      icon: docker,
+    },
+    {
+      name: "Figma",
+      icon: figma,
     },
   ];
   

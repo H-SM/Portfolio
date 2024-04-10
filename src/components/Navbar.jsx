@@ -38,12 +38,8 @@ const Navbar = () => {
   </h2>
       <div className="relative inline-block text-left">
   <img src={menu} alt="menu" className="w-[24px] h-[24px] object-contain z-3" onClick={handleClick}/>
-  <motion.div
-  variants={navVariants2}
-  // variants={fadeIn('right','tween',0,0.2)}
-    initial="hidden"
-    whileInView="show" 
-  className={`${opener?"absolute":"hidden"} right-0 z-10 mt-2 w-56 origin-top-right rounded-md lg:bg-cyan-800/10 shadow-lg shadow-cyan-500/70 focus:outline-none transition duration-75 ease-in-out bg-cyan-900/90`} id="menu">
+  <div
+  className={`${opener?"absolute opacity-100":"hidden opacity-0"} right-0 z-10 mt-2 w-56 origin-top-right rounded-md lg:bg-cyan-800/10 shadow-lg shadow-cyan-500/70 focus:outline-none transition duration-200 ease-in-out bg-cyan-900/90`} id="menu">
     <div className='flex justify-end' onClick={handleClick}>
     <div className="text-slate-300 block px-4 py-1 z-30 right-1" role="menuitem" id="menu-item-6">
     <div className='mx-1 my-2 mt-3' >
@@ -56,7 +52,7 @@ const Navbar = () => {
     <a href="#Projects" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-2">Projects</a>
     <a href="#Resume" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1 z-30" role="menuitem" id="menu-item-3">Resume</a>
     <a href="#Contact" className="text-slate-300 block px-4 py-2 text-[18px] hover:bg-cyan-800/30 transition duration-75 ease-in-out hover:ring-cyan-200/40 hover:ring-1" role="menuitem z-30" id="menu-item-4">Contact</a>
-  </motion.div>
+  </div>
 </div>
 
     

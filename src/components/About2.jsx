@@ -8,8 +8,7 @@ import { services } from '../constants';
 const ServiceCard = ({index, title, icon}) => {
   return(
     <Tilt className="xs:w-[250px] w-full">
-        <motion.div
-        variants={fadeIn("right","spring", 0.5* index ,0.75)}
+        <div
         className='w-full bg-black/25 hover:bg-black/40 p-[1px] rounded-[20px] shadow-card transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 ring-emerald-200/60 ring-2'>
           <div options={{
             max: 45,
@@ -20,7 +19,7 @@ const ServiceCard = ({index, title, icon}) => {
             <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
             <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
           </div>
-        </motion.div>
+        </div>
     </Tilt>
   )
 }
@@ -52,14 +51,14 @@ const About2 = () => (
         <span className='font-bold text-white'> iterative approach to development. </span>
         </motion.p>
       </motion.div>
-      <motion.div
-      variants={slideIn('right','tween',0.2,1)}
-      viewport={{once: 'false',amount: 0.25}}
+      <div
+      // variants={slideIn('right','tween',0.2,1)}
+      // viewport={{once: 'false',amount: 0.25}}
       className={`flex flex-wrap gap-10 max-w-[600px]`}>
         {services.map((service, index) =>(
           <ServiceCard key={service.title} index={index} {...service}/>
         ) )}
-      </motion.div>
+      </div>
     </motion.div>
   </section>
 );

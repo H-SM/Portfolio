@@ -11,7 +11,7 @@ import herobg from "./herobg.png"
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import javascript from "./tech/JavaScript-logo.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
@@ -21,9 +21,12 @@ import typescript from "./tech/typescript.png";
 import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
 import express from "./tech/expressjs.png";
-import vite from "./tech/vite.png";
+import vite from "./tech/vite.svg";
 import vercel from "./tech/vercel.png";
-import threejs from './tech/threejs.png'
+import threejs from './tech/threejs.png';
+import docker from "./tech/docker.png";
+import figma from "./tech/figma.png";
+import postgres from "./tech/postgres.png";
 
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
@@ -111,6 +114,9 @@ export {
   python,
   express,
   vite,
+  docker,
+  figma,
+  postgres,
   vercel,
   CV,
   discord,

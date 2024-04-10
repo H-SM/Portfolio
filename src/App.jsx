@@ -62,7 +62,7 @@ const App = () => {
       </BrowserRouter>
       <div
             ref={blobRef}
-            className="blob bg-white-100 h-[300px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-20 blur-[1000px] z-0"
+            className="blob bg-white-100 h-[300px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-10 blur-[1000px] z-0"
             style={{ animation: "rotate 20s infinite" }}
       ></div>
     </>

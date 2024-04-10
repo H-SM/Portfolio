@@ -19,14 +19,11 @@ const About = () => {
       viewport={{once: 'false',amount: 0.25}}
       className={`${styles.innerWidth} mx-auto my-[200px] flex lg:flex-row flex-col gap-8`}>
 
-        <motion.div
-        variants={planetVariants('left')}
-        viewport={{once: 'false',amount: 0.25}}
-        className={`flex-1 ${styles.flexCenter}`}>
+        <div className={`flex-1 ${styles.flexCenter}`}>
        
 
           <img src={getstarted} alt="plnt-1" className='w-[100%] h-[100%] object-contain hover:scale-105 transition duration-500 hover:drop-shadow-xl hover:saturate-0 hover:shadow-cyan-500/90 hover: ease-in-out'/>
-        </motion.div>
+        </div>
         <motion.div
         variants={fadeIn('left','tween',0.25,1)}
         className='flex-[0.75] flex justify-center flex-col' id="Overview">

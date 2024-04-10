@@ -31,7 +31,8 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <div className="bg-primary-black overflow-hidden">
+        <div className="relative bg-primary-black overflow-hidden w-full">
+        <div className='absolute w-[80%] h-[10rem] left-[8vw] top-[-15vh] z-[0] gradient-01 pulseslow'></div>
           <Navbar />
           <div className="relative">
             <Hero />

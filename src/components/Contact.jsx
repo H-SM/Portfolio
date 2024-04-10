@@ -27,7 +27,7 @@ const Contact = () => {
     setLoading(true);
 
     emailjs.send(
-      'service_gmroj5r',
+      'service_cpqnw8m',
       'template_nyzl7uh',{
         from_name: form.name,
         to_name: "Harman Singh",

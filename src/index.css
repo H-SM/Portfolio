@@ -27,6 +27,16 @@
   }
 }
 
+@keyframes pulse {
+  50% {
+      opacity: .4;
+  }
+}
+
+.pulseslow {
+  animation: pulse 5s infinite;
+}
+
 
 .gradient-02 {
   position: absolute;

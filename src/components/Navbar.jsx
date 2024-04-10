@@ -23,7 +23,6 @@ const Navbar = () => {
     className={`${styles.paddingX} py-8 relative`}
     id="nav"
   >
-    <div className='absolute w-[50%] top-2 inset-0 z-[0] gradient-01 opacity-90'></div>
     <div className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}>
   <img
     id="menu-button"

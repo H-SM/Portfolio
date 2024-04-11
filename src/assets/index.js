@@ -27,6 +27,7 @@ import threejs from './tech/threejs.png';
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import postgres from "./tech/postgres.png";
+import firebase from "./tech/firebase.png";
 
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
@@ -117,6 +118,7 @@ export {
   docker,
   figma,
   postgres,
+  firebase,
   vercel,
   CV,
   discord,

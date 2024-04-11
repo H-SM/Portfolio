@@ -40,6 +40,7 @@ import {
     github,
     discord,
     docker,
+    firebase,
     figma,
     postgres,
     aieds
@@ -168,6 +169,10 @@ import {
     //   name: "Vercel",
     //   icon: vercel,
     // },
+    {
+      name: "Firebase",
+      icon: firebase
+    },
     {
       name: "Docker",
       icon: docker,

@@ -7,7 +7,7 @@ import { herobg, hsm } from '../assets';
 const Hero = () => {
   return (
     <>
-    <section className={`${styles.paddingY} ms:pl-16 pl-6 my-11`}>
+    <section className={`${styles.paddingY} h-[90%] my-11`}>
     <motion.div 
     variants={staggerContainer} 
     initial="hidden" 
@@ -15,7 +15,7 @@ const Hero = () => {
     viewport={{ once: false, amount: 0.25}}
     className={`${styles.innerWidth} mx-auto flex flex-col`}>
       <div className='flex justify-center items-center flex-col relative' style={{fontFamily:'Poppins'}}>
-          <motion.h1 variants={textVariant(1.1)} className={styles.heroTopperHeading}>
+          <motion.h1 variants={textVariant(1.1)} className={`${styles.heroTopperHeading} w-full flex justify-center items-center`}>
             HELLO, THIS IS
           </motion.h1>
           <motion.div

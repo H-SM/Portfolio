@@ -35,12 +35,12 @@ const About2 = () => (
     className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 justify-center items-center `}>
       <motion.div
       variants={fadeIn('right','tween',0.25,1)}
-      className='flex-[0.75] flex justify-center flex-col mx-[50px]'>
+      className='flex-[0.75] flex justify-center md:items-start items-center flex-col mx-[50px] mb-[3rem]'>
         <TypingText title="| What am I good at?"/>
         <TitleText title={<>My Outline</>}/>
         <motion.p
       variants={fadeIn('up','tween',0.2,1)}
-      className='mt-[8px] font-normal sm:text-[19px] text-[14px] text-start text-secondary-white max-w-[490px] mb-8'>
+      className='mt-[2rem] font-normal sm:text-[19px] text-[14px] text-justify text-secondary-white mb-8 '>
         Expertise in languages such as 
         <span className='font-bold text-white'> Python, JavaScript, and Typescript,</span> while leveraging technologies like 
         <span className='font-bold text-white'> React and Next.js </span> 

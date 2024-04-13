@@ -30,7 +30,7 @@ const Footer = () => {
         <div className="flex items-center justify-between flex-wrap gap-4">
         <img src={hsmlogo} alt="srch" className='w-[107px] h-[60px] object-contain' />
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2022 - 2023 HSM. All rights reserved.
+            Copyright © 2024 HSM. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (

@@ -56,7 +56,7 @@ const Contact = () => {
     <div className='2xl:mt-12 py-7 flex justify-center xl:flex-col-reverse 2xl:flex-row flex-col-reverse items-center gap-2 overflow-hidden w-screen' id="Contact">
       <motion.div
       variants={slideIn('left','tween',0.2,1)}
-      className='bg-black/30 hover:bg-black/40 p-8 transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 rounded-2xl  2xl:w-[40%]'>
+      className='bg-black/30 hover:bg-black/40 p-8 transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 rounded-2xl w-[90%] lg:w-[60%] 2xl:w-[40%]'>
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form ref={formRef} onSubmit={handleSubmit} className='mt-12 flex flex-col gap-8'>

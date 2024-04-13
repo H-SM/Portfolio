@@ -5,7 +5,7 @@ const Technoicon = ({ technology }) => {
 
     return (
       <div 
-        className='relative flex justify-center items-center w-28 h-28'
+        className='relative flex justify-center items-center w-[5rem] h-[5rem] sm:w-28 sm:h-28'
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -15,7 +15,7 @@ const Technoicon = ({ technology }) => {
               {technology.name}
             </div>
           </div>
-          <img src={technology.icon} alt={technology.name} className=' transition ease-in-out duration-200 max-w-[7rem]' style={{ opacity: isHovered ? 0.4 : 1 }}/>
+          <img src={technology.icon} alt={technology.name} className=' transition ease-in-out duration-200 md:max-w-[7rem]' style={{ opacity: isHovered ? 0.4 : 1 }}/>
         </div>
       </div>
     );

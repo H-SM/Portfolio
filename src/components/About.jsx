@@ -17,7 +17,7 @@ const About = () => {
           initial="hidden"
           whileInView="show"
           viewport={{ once: 'false', amount: 0.25 }}
-          className={`${styles.innerWidth} mx-auto my-[200px] flex lg:flex-row flex-col gap-8`}>
+          className={`${styles.innerWidth} mx-auto my-[200px] flex lg:flex-row flex-col gap-8 justify-center items-center`}>
 
           <div className={`flex-1 ${styles.flexCenter}`}>
 

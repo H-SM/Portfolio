@@ -13,8 +13,8 @@ const ProjectCard = ({ index, name , description, tags, image, source_code_link,
     <section className='relative z-10'>
     <motion.div
     variants={fadeIn("up","spring", index*0.5, 0.75)}>
-      <div className='bg-black/30 hover:bg-black/40 p-5 rounded-2xl sm:w-[360px] w-fullh-fit transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 flex flex-col justify-evenly max-w-[36rem] h-[25rem]'>
-        <div className='relative w-full  max-h-[8rem] rounded-2xl overflow-hidden bg-no-repeat bg-cover '>
+      <div className='bg-black/30 hover:bg-black/40 p-5 rounded-2xl md:w-[360px] w-[25rem] transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 hover:ring-emerald-200/60 hover:ring-2 flex flex-col justify-evenly max-w-[36rem] h-[25rem]'>
+        <div className='relative w-full max-h-[8rem] rounded-2xl overflow-hidden bg-no-repeat bg-cover '>
           <img src={image} alt="something" className='transition duration-300 ease-in-out hover:scale-105 '/>
         </div>
 
@@ -77,8 +77,8 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className='flex justify-center items-center mt-20 md:mx-[60px] gap-7'>
-        <div className='grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 md:grid-cols-2 gap-7 mb-12'>
+      <div className='flex justify-center items-center mt-20 md:mx-[60px]'>
+        <div className='grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 md:grid-cols-2 lg:gap-7 gap-[1rem] mb-12 justify-center items-center'>
       {projects.map((project, index) => (
         <ProjectCard key={index} index={index} {...project}/>
       ))}

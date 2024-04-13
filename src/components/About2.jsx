@@ -7,15 +7,15 @@ import { staggerContainer, fadeIn, planetVariants, slideIn } from '../utils/moti
 import { services } from '../constants';
 const ServiceCard = ({index, title, icon}) => {
   return(
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="sm:w-[14rem] sm:h-[12rem] w-[12rem] h-[14rem] flex justify-center items-center">
         <div
-        className='w-full bg-black/25 hover:bg-black/40 p-[1px] rounded-[20px] shadow-card transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 ring-emerald-200/60 ring-2'>
+        className='w-[14rem] bg-black/25 hover:bg-black/40 px-[1px] py-4 rounded-[20px] shadow-card transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 ring-emerald-200/60 ring-2 sm:h-[17rem] h-[14rem]'>
           <div options={{
             max: 45,
             scale: 1,
             speed: 450,
           }}
-          className='bg-black/25 hover:bg-black/40 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'>
+          className='rounded-[20px] py-5 px-12 min-h-[14rem] flex justify-evenly items-center flex-col'>
             <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
             <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
           </div>
@@ -32,7 +32,7 @@ const About2 = () => (
     initial="hidden"
     whileInView="show"
     viewport={{once: 'false',amount: 0.25}}
-    className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}>
+    className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 justify-center items-center `}>
       <motion.div
       variants={fadeIn('right','tween',0.25,1)}
       className='flex-[0.75] flex justify-center flex-col mx-[50px]'>
@@ -40,7 +40,7 @@ const About2 = () => (
         <TitleText title={<>My Outline</>}/>
         <motion.p
       variants={fadeIn('up','tween',0.2,1)}
-      className='mt-[8px] font-normal sm:text-[19px] text-[14px] text-start text-secondary-white max-w-[490px]'>
+      className='mt-[8px] font-normal sm:text-[19px] text-[14px] text-start text-secondary-white max-w-[490px] mb-8'>
         Expertise in languages such as 
         <span className='font-bold text-white'> Python, JavaScript, and Typescript,</span> while leveraging technologies like 
         <span className='font-bold text-white'> React and Next.js </span> 
@@ -54,7 +54,7 @@ const About2 = () => (
       <div
       // variants={slideIn('right','tween',0.2,1)}
       // viewport={{once: 'false',amount: 0.25}}
-      className={`flex flex-wrap gap-10 max-w-[600px]`}>
+      className={`flex flex-wrap sm:gap-7 gap-5 sm:gap-y-[6.5rem] max-w-[500px] h-full justify-center items-center`}>
         {services.map((service, index) =>(
           <ServiceCard key={service.title} index={index} {...service}/>
         ) )}

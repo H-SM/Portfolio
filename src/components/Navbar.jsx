@@ -32,7 +32,7 @@ const Navbar = () => {
     alt="srch"
     className='w-[71px] h-[40px] object-contain z-20'
   />
-  <h2 className='font-extrabold text-[24px] leading-[30px] text-white z-20'>
+  <h2 className='hidden md:flex font-extrabold text-[24px] leading-[30px] text-white z-20'>
     HARMAN SINGH MALHOTRA
   </h2>
       <div className="relative inline-block text-left">

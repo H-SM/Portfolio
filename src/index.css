@@ -33,6 +33,13 @@
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .hidden {
+    display: none;
+  }
+}
+
+
 .pulseslow {
   animation: pulse 5s infinite;
 }

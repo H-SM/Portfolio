@@ -7,17 +7,17 @@ import { staggerContainer, fadeIn, planetVariants, slideIn } from '../utils/moti
 import { services } from '../constants';
 const ServiceCard = ({index, title, icon}) => {
   return(
-    <Tilt className="sm:w-[14rem] sm:h-[12rem] w-[12rem] h-[14rem] flex justify-center items-center">
+    <Tilt className="sm:w-[14rem] sm:h-[12rem] xs:w-[12rem] xs:h-[14rem] flex justify-center items-center">
         <div
-        className='w-[14rem] bg-black/25 hover:bg-black/40 px-[1px] py-4 rounded-[20px] shadow-card transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 ring-emerald-200/60 ring-2 sm:h-[17rem] h-[14rem]'>
+        className='w-[9rem] h-[10rem] xs:w-[14rem] bg-black/25 hover:bg-black/40 px-[1px] py-4 rounded-[20px] shadow-card transition ease-linear hover:shadow-lg hover:shadow-cyan-500/50 ring-emerald-200/60 ring-2 sm:h-[17rem] xs:h-[14rem]'>
           <div options={{
             max: 45,
             scale: 1,
             speed: 450,
           }}
-          className='rounded-[20px] py-5 px-12 min-h-[14rem] flex justify-evenly items-center flex-col'>
-            <img src={icon} alt={title} className='w-16 h-16 object-contain'/>
-            <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          className='rounded-[20px] py-5 px-12 h-full flex justify-center items-center flex-col'>
+            <img src={icon} alt={title} className='xs:w-16 xs:h-16 w-8 h-8 object-contain'/>
+            <h3 className='text-white xs:text-[20px] font-bold text-center'>{title}</h3>
           </div>
         </div>
     </Tilt>
@@ -54,7 +54,7 @@ const About2 = () => (
       <div
       // variants={slideIn('right','tween',0.2,1)}
       // viewport={{once: 'false',amount: 0.25}}
-      className={`flex flex-wrap sm:gap-7 gap-5 sm:gap-y-[6.5rem] max-w-[500px] h-full justify-center items-center`}>
+      className={`flex flex-wrap sm:gap-7 xs:gap-5 gap-4 sm:gap-y-[6.5rem] max-w-[500px] h-full justify-center items-center`}>
         {services.map((service, index) =>(
           <ServiceCard key={service.title} index={index} {...service}/>
         ) )}

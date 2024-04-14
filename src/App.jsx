@@ -29,11 +29,12 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div className="bg-primary-black">
       <BrowserRouter>
-        <div className="relative bg-primary-black overflow-hidden w-full">
+      <Navbar/>
+      
+        <div className=" bg-primary-black overflow-hidden w-full">
         <div className='absolute w-[80%] h-[10rem] left-[8vw] top-[-15vh] z-[0] gradient-01 pulseslow'></div>
-          <Navbar />
           <div className="relative">
             <Hero />
             <WhoamI />
@@ -66,7 +67,7 @@ const App = () => {
             className="md:flex hidden blob bg-white-100 h-[300px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-10 blur-[1000px] z-0"
             style={{ animation: "rotate 20s infinite" }}
       ></div>
-    </>
+    </div>
   );
 };
 

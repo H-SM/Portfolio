@@ -291,7 +291,7 @@ import {
     {
       name: "NoteHaven",
       description:
-        "your notebook on the cloud - taking up our notes in cloud - what to do, what can I do during the day, these questions will be answered based on what you have put up in the TO DO list in the notes..",
+        "Your notebook on the cloud - taking up our notes which you could access anywhere, anytime, whether you're at home, in the office, or on the go, ensuring seamless productivity. \" Your Idea's Elevated \".",
       tags: [
         {
           name: "mongodb",

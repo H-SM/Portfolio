@@ -42,7 +42,7 @@ const About2 = () => (
       variants={fadeIn('up','tween',0.2,1)}
       className='mt-[2rem] font-normal sm:text-[19px] text-[14px] text-justify text-secondary-white mb-8 '>
         Expertise in languages such as 
-        <span className='font-bold text-white'> Python, JavaScript, and Typescript,</span> while leveraging technologies like 
+        <span className='font-bold text-white'> C++, JavaScript, and Typescript,</span> while leveraging technologies like 
         <span className='font-bold text-white'> React and Next.js </span> 
         for comprehensive solutions. The collaborative spirit shines through in notable team-based projects, demonstrating 
         <span className='font-bold text-white'> effective communication and teamwork. </span>

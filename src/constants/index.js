@@ -43,7 +43,9 @@ import {
     firebase,
     figma,
     postgres,
-    aieds
+    aieds,
+    dj,
+    ht
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -184,16 +186,40 @@ import {
   ];
   
   const experiences = [
+    // {
+    //   title: "Design Intern",
+    //   company_name: "Apna Roti Bank",
+    //   icon: arb,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jun 2022 - Aug 2022",
+    //   points: [
+    //     "Executed design strategies and upheld brand coherence across a diverse range of over 15+ projects.",
+    //     "Streamlined project timelines for 15+ concurrent projects, optimizing resource allocation.",
+    //     "Consistently achieving on-time delivery of deliverables within budget constraints; reduced project delays by 40%.",
+    //   ],
+    // },
     {
-      title: "Design Intern",
-      company_name: "Apna Roti Bank",
-      icon: arb,
-      iconBg: "#E6DEDD",
-      date: "Jun 2022 - Aug 2022",
+      title: "Web Developer Intern",
+      company_name: "Digital Jalebi",
+      icon: dj,
+      iconBg: "#212236",
+      date: "June 2024 - Present",
       points: [
-        "Executed design strategies and upheld brand coherence across a diverse range of over 15+ projects.",
-        "Streamlined project timelines for 15+ concurrent projects, optimizing resource allocation.",
-        "Consistently achieving on-time delivery of deliverables within budget constraints; reduced project delays by 40%.",
+        "Engineered Event Tech project, achieving 40% reduction in database query reads using NextJS, IoT technologies, and database optimization techniques.",
+        "Led integration of Local Server, which resulted in 45% improvement in handling load times across offline exhibits.",
+        "Developed innovative SaaS applications and experiential exhibits display that enhanced user engagement and 60% improvement in app stability.",
+      ],
+    },
+    {
+      title: "Project Intern",
+      company_name: "HERE Technology",
+      icon: ht,
+      iconBg: "#FFFFFF",
+      date: "June 2024 - July 2024",
+      points: [
+        "Reached 90% accuracy in geographic data for end users by implementing advanced web scraping techniques using Scrapy",
+        "Worked in a team to scrape data from 8 live sites, enhancing the geographical data pipeline with up-to-date information",
+        "Implemented a data scraping framework that automated the collection of location-based information, allowing for an increase in the frequency of data updates by 200%, directly enhancing the quality of mapping services used",
       ],
     },
     {

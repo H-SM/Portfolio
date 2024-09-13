@@ -39,7 +39,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import csi from './company/csi.png';
 import arb from './company/arb.png'
-
+import dj from './company/dj.png'
+import ht from './company/ht.png'
 
 import instagram from "./instagram.svg";
 import twitter from "./twitter.svg";
@@ -111,6 +112,8 @@ export {
   hsmlogo,
   csi,
   arb,
+  dj,
+  ht,
   cpp,
   python,
   express,

@@ -62,7 +62,7 @@ import {
     {
       name: 'linkedin',
       url: linkedin,
-      link: 'https://www.linkedin.com/in/harman-singh-hsm',
+      link: 'https://www.linkedin.com/in/hsmhere',
     },
     {
       name: 'instagram',

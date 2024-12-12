@@ -38,7 +38,7 @@ const Navbar = () => {
           <div className='relative transition ease-in-out duration-150 z-20'>
             <div className='w-[10rem] h-fit flex flex-col bordergradient rounded-[20px] bg-secondary-background py-2 px-4 justify-center items-center text-[2rem] transition ease-in-out duration-150 z-20'>
               <button className='w-full flex justify-between items-center cursor-pointer z-20 ' onClick={handleClick}>
-                <p className='font-bold text-white text-[0.8rem]'>HSMHERE.ME</p>
+                <p className='font-bold text-white text-[0.8rem]'>HARMANCODES.COM</p>
                 <img src={!opener ? menu : close} alt="menu" className="w-[1rem] object-contain z-3" />
               </button>
             </div>

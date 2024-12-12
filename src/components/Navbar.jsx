@@ -36,7 +36,7 @@ const Navbar = () => {
             HARMAN SINGH MALHOTRA
           </h2>
           <div className='relative transition ease-in-out duration-150 z-20'>
-            <div className='w-[12rem] h-fit flex flex-col bordergradient rounded-[20px] bg-secondary-background py-2 px-4 justify-center items-center text-[2rem] transition ease-in-out duration-150 z-20'>
+            <div className='w-[12.5rem] h-fit flex flex-col bordergradient rounded-[20px] bg-secondary-background py-2 px-4 justify-center items-center text-[2rem] transition ease-in-out duration-150 z-20'>
               <button className='w-full flex justify-between items-center cursor-pointer z-20 ' onClick={handleClick}>
                 <p className='font-bold text-white text-[0.8rem]'>HARMANCODES.COM</p>
                 <img src={!opener ? menu : close} alt="menu" className="w-[1rem] object-contain z-3" />

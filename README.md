@@ -29,13 +29,13 @@ To run the website locally, follow these steps:
 3. Install dependencies:
 
     ```bash
-    npm install
+    yarn 
     ```
 
 4. Start the development server:
 
     ```bash
-    npm run dev
+    yarn dev
     ```
 
 5. Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the website.

@@ -45,6 +45,7 @@ import {
     postgres,
     aieds,
     dj,
+    loop,
     ht
   } from "../assets";
   export const startingFeatures = [
@@ -199,11 +200,23 @@ import {
     //   ],
     // },
     {
+      title: "Software Engineer Intern",
+      company_name: "Loop Health Pvt. Ltd.",
+      icon: loop,
+      iconBg: "#025F4C",
+      date: "Dec 2024 - Present",
+      points: [
+        "Spearheaded automation initiatives in the endorsement team, reducing manual report processing time from 6 hours to near-zero through template generation systems, resulting in 28% improvement in operational efficiency.",
+        "Architected and implemented a standardized error handling framework across multiple application wings, establishing modular error verbages to enhance system reliability and developer debugging efficiency.",
+        "Optimized endorsement data processing workflows through strategic automation, improving report generation accuracy while significantly reducing human intervention in data validation processes.",
+      ],
+    },
+    {
       title: "Web Developer Intern",
       company_name: "Digital Jalebi",
       icon: dj,
       iconBg: "#212236",
-      date: "June 2024 - Present",
+      date: "June 2024 - August 2024",
       points: [
         "Engineered Event Tech project, achieving 40% reduction in database query reads using NextJS, IoT technologies, and database optimization techniques.",
         "Led integration of Local Server, which resulted in 45% improvement in handling load times across offline exhibits.",
@@ -289,7 +302,7 @@ import {
       image: aieds,
       source_code_link: "https://github.com/sakshamshahu/AIEDS",
       // url_link: "https://chatify-phi.vercel.app/",
-      prod : true
+      // prod : true
     },
     {
       name: "Graph Path Guru",

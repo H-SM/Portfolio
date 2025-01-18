@@ -28,7 +28,7 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import postgres from "./tech/postgres.png";
 import firebase from "./tech/firebase.png";
-
+import loop from "./company/loop.png";
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
 
@@ -113,6 +113,7 @@ export {
   csi,
   arb,
   dj,
+  loop,
   ht,
   cpp,
   python,

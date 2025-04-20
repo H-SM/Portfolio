@@ -29,13 +29,13 @@ const App = () => {
   }, []);
 
   return (
-    <div className="bg-primary-black">
+    <div className="bg-primary-black overflow-hidden" id="Top">
       <BrowserRouter>
       <Navbar/>
       
         <div className=" bg-primary-black overflow-hidden w-full">
         <div className='absolute w-[80%] h-[10rem] left-[8vw] top-[-15vh] z-[0] gradient-01 pulseslow'></div>
-          <div className="relative">
+          <div className="relative z-10">
             <Hero />
             <WhoamI />
           </div>
@@ -64,7 +64,7 @@ const App = () => {
       </BrowserRouter>
       <div
             ref={blobRef}
-            className="md:flex hidden blob bg-white-100 h-[300px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-10 blur-[1000px] z-0"
+            className="md:flex hidden blob bg-white-100 h-[150px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-30 blur-[4em] z-0"
             style={{ animation: "rotate 20s infinite" }}
       ></div>
     </div>

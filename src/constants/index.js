@@ -240,7 +240,7 @@ import {
       company_name: "UPES - CSI Student Chapter",
       icon: csi,
       iconBg: "#383E56",
-      date: "Sep 2022 - present",
+      date: "Sep 2022 - Apr 2024",
       points: [
         "Led a team of 9 designers and visual effects artists, overseeing all aspects of design and VFX over 20+projects.",
         "Implemented design strategies and maintained brand consistency across 20+ projects and increasedbrand awareness by 30%.",

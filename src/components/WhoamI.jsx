@@ -10,7 +10,6 @@ const About = () => (
     <>
     <div className='relative'>
     <div className='absolute gradient-02 z-0 opacity-50'></div>
-  
   <section className={`relative ${styles.padding} relative z-10`}>
     
     <motion.div
@@ -23,7 +22,7 @@ const About = () => (
       <motion.p
       variants={fadeIn('up','tween',0.2,1)}
       className='mt-[8px] font-normal sm:text-[29px] text-[18px] text-center text-secondary-white'>
-        Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhortra. </span>
+        Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhotra. </span>
           A 
         <span className='font-extrabold text-white'> full-stack enthusiast</span> 
         , showcasing diverse 

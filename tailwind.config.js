@@ -15,6 +15,7 @@ module.exports = {
         secondary: "#aaa6c3",
         tertiary: "#151030",
         'secondary-background' : '#7b7b7b29',
+        'tertiary-background' : '#7b7b7b50',
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",

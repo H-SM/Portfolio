@@ -28,9 +28,11 @@ const Footer = () => {
       <div className="flex- flex-col ">
         <div className="mb-[50px] h-[2px] bg-white opacity-10"></div>
         <div className="flex items-center justify-between flex-wrap gap-4">
-        <img src={hsmlogo} alt="srch" className='w-[107px] h-[60px] object-contain' />
+          <a href="#Top" className="w-[107px] h-[60px]object-contain z-20">
+          <img src={hsmlogo} alt="srch" className='w-full h-full' />
+          </a>
           <p className="font-normal text-[14px] text-white opacity-50">
-            Copyright © 2024 HSM. All rights reserved.
+            Copyright © 2025 HSM. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socials.map((social) => (

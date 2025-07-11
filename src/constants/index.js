@@ -46,7 +46,8 @@ import {
     aieds,
     dj,
     loop,
-    ht
+    ht,
+    next
   } from "../assets";
   export const startingFeatures = [
     'Eager to contribute in projects & enhance my technical-skills',
@@ -139,6 +140,10 @@ import {
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Next JS",
+      icon: next,
     },
     {
       name: "Redux Toolkit",

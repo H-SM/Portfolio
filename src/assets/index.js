@@ -18,6 +18,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import next from "./tech/next.png"; 
 import cpp from "./tech/c++.png";
 import python from "./tech/python.png";
 import express from "./tech/expressjs.png";
@@ -88,6 +89,7 @@ export {
   redux,
   tailwind,
   typescript,
+  next,
   threejs,
   meta,
   shopify,

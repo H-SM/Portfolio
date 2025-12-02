@@ -2,6 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import { useEffect, useRef } from "react";
 import { About2, About, Contact, Experience, Hero, Navbar, Tech, Works, Footer, WhoamI, Resume } from './components';
 import StarsCanvas from "./components/canvas/Stars";
+import { Analytics } from "@vercel/analytics/next";
 const App = () => {
   const blobRef = useRef(null);
 
@@ -67,6 +68,7 @@ const App = () => {
             className="md:flex hidden blob bg-white-100 h-[150px] aspect-square absolute rounded-full left-[50%] top-[50%] bg-gradient-to-r from-blue-500 from-10% via-sky-400 via-30% to-emerald-400 to-90% opacity-30 blur-[4em] z-0"
             style={{ animation: "rotate 20s infinite" }}
       ></div>
+      <Analytics />
     </div>
   );
 };

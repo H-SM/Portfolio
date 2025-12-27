@@ -59,7 +59,7 @@ const Navbar = () => {
             >
               <div className="w-full flex justify-between items-center cursor-pointer z-20 ">
                 <p className="font-bold text-white text-[0.8rem]">
-                  HARMANCODES.COM
+                  THISISHARMAN.COM
                 </p>
                 {/* <img
                   src={!opener ? menu : close}

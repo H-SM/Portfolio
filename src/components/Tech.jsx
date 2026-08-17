@@ -9,7 +9,7 @@ const Tech = () => {
       <div className='flex flex-col items-center justify-center m-[55px] z-5'>
         <div className='flex flex-wrap justify-center md:gap-10 gap-4 w-full md:w-[950px] mt-11 opacity-80'>
           {technologies.map((technology) => (
-            <Technoicon technology={technology}/>
+            <Technoicon key={technology.name} technology={technology}/>
           ))}
         </div>
       </div>

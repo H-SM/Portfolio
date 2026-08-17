@@ -36,18 +36,31 @@ const About2 = () => (
       <motion.div
       variants={fadeIn('right','tween',0.25,1)}
       className='flex-[0.75] flex justify-center md:items-start items-center flex-col mx-[50px] mb-[3rem]'>
+        {/* Old: <TypingText title="| What am I good at?"/> <TitleText title={<>My Outline</>}/> */}
         <TypingText title="| What am I good at?"/>
-        <TitleText title={<>My Outline</>}/>
+        <TitleText title={<>How I Build</>}/>
+        {/* Old paragraph (pre-2024, kept for reference):
+        <motion.p variants={fadeIn('up','tween',0.2,1)} className='mt-[2rem] font-normal sm:text-[19px] text-[14px] text-justify text-secondary-white mb-8 '>
+        Expertise in languages such as
+        <span className='font-bold text-white'> C++, JavaScript, and Typescript,</span> while leveraging technologies like
+        <span className='font-bold text-white'> React and Next.js </span>
+        for comprehensive solutions. The collaborative spirit shines through in notable team-based projects, demonstrating
+        <span className='font-bold text-white'> effective communication and teamwork. </span>
+        <br/>
+        From dynamic web applications to efficient algorithms, each project reflects an
+        <span className='font-bold text-white'> iterative approach to development. </span>
+        </motion.p>
+        */}
         <motion.p
       variants={fadeIn('up','tween',0.2,1)}
       className='mt-[2rem] font-normal sm:text-[19px] text-[14px] text-justify text-secondary-white mb-8 '>
-        Expertise in languages such as 
-        <span className='font-bold text-white'> C++, JavaScript, and Typescript,</span> while leveraging technologies like 
-        <span className='font-bold text-white'> React and Next.js </span> 
-        for comprehensive solutions. The collaborative spirit shines through in notable team-based projects, demonstrating 
-        <span className='font-bold text-white'> effective communication and teamwork. </span>
+        Backend-leaning full-stack engineer, fluent in
+        <span className='font-bold text-white'> TypeScript, Python, and Rust,</span> shipping production systems on
+        <span className='font-bold text-white'> Node.js, React, and Google Cloud. </span>
+        A year at a health-tech startup sharpened an eye for
+        <span className='font-bold text-white'> reliable, high-throughput services. </span>
         <br/>
-        From dynamic web applications to efficient algorithms, each project reflects an 
+        From microservices processing millions of records to Rust-powered algorithms, each project reflects an
         <span className='font-bold text-white'> iterative approach to development. </span>
         </motion.p>
       </motion.div>

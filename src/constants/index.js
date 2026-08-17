@@ -47,12 +47,23 @@ import {
     dj,
     loop,
     ht,
-    next
+    next,
+    redis,
+    gcp,
+    prisma,
+    excarte,
+    utour,
   } from "../assets";
+  // Old (pre-2024 version, kept for reference):
+  // export const startingFeatures = [
+  //   'Eager to contribute in projects & enhance my technical-skills',
+  //   'Aim to leverage my problem-solving abilities',
+  //   'Passion for designing intuitive user interfaces',
+  // ];
   export const startingFeatures = [
-    'Eager to contribute in projects & enhance my technical-skills',
-    'Aim to leverage my problem-solving abilities',
-    'Passion for designing intuitive user interfaces',
+    'Shipping production microservices that move real data',
+    'Turning gnarly backend problems into clean systems',
+    'Building end-to-end, from algorithms to React UI',
   ];
   
   export const socials = [
@@ -93,21 +104,40 @@ import {
     },
   ];
   
+  // Old (pre-2024 version, kept for reference):
+  // const services = [
+  //   {
+  //     title: "Full Stack Developer",
+  //     icon: web,
+  //   },
+  //   {
+  //     title: "React Developer",
+  //     icon: mobile,
+  //   },
+  //   {
+  //     title: "Open Source",
+  //     icon: backend,
+  //   },
+  //   {
+  //     title: "Graphic Designer",
+  //     icon: creator,
+  //   },
+  // ];
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Full-Stack Engineer",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Backend Engineer",
       icon: mobile,
     },
     {
-      title: "Open Source",
+      title: "Frontend Engineer",
       icon: backend,
     },
     {
-      title: "Graphic Designer",
+      title: "Open Source",
       icon: creator,
     },
   ];
@@ -166,6 +196,14 @@ import {
       icon: postgres,
     },
     {
+      name: "Prisma",
+      icon: prisma,
+    },
+    {
+      name: "Redis",
+      icon: redis,
+    },
+    {
       name: "Git",
       icon: git,
     },
@@ -173,10 +211,14 @@ import {
       name: "Express",
       icon: express,
     },
-    // {
-    //   name: "Vercel",
-    //   icon: vercel,
-    // },
+    {
+      name: "Vite",
+      icon: vite,
+    },
+    {
+      name: "Vercel",
+      icon: vercel,
+    },
     {
       name: "Firebase",
       icon: firebase
@@ -184,6 +226,10 @@ import {
     {
       name: "Docker",
       icon: docker,
+    },
+    {
+      name: "Google Cloud Platform",
+      icon: gcp,
     },
     {
       name: "Figma",
@@ -205,15 +251,17 @@ import {
     //   ],
     // },
     {
-      title: "Software Engineer Intern",
-      company_name: "Loop Health Pvt. Ltd.",
+      title: "Software Engineer",
+      company_name: "Loop Health (Invoq Health)",
       icon: loop,
       iconBg: "#025F4C",
       date: "Dec 2024 - Present",
       points: [
-        "Spearheaded automation initiatives in the endorsement team, reducing manual report processing time from 6 hours to near-zero through template generation systems, resulting in 28% improvement in operational efficiency.",
-        "Architected and implemented a standardized error handling framework across multiple application wings, establishing modular error verbages to enhance system reliability and developer debugging efficiency.",
-        "Optimized endorsement data processing workflows through strategic automation, improving report generation accuracy while significantly reducing human intervention in data validation processes.",
+        "Architected Loop's first communications microservice from scratch, dispatching 1M+ emails and WhatsApp messages in under a minute at peak by streaming job files in 1,000-record batches through parallelised SendGrid and Sinch integrations scheduled on Google Cloud Tasks, with full per-message delivery traceability.",
+        "Designed a standalone premium Rater microservice on a JSON rules engine with set operators and pro-rata calculators, scaling pricing rule inputs from 3 attributes to 18 and replacing per-policy hardcoded pricing functions with an operator-driven Excel upload workflow.",
+        "Consolidated two drifting copies of member validation logic into a single three-phase (Setup, Validation, Enrichment) Validation Service serving a registration pipeline of 40,000-50,000 records/day, rolled out behind feature flags via an adapter layer that onboarded the legacy pipeline without a rewrite.",
+        "Eliminated silent member drop-offs previously caught only through customer escalations by streaming pre- and post-run events into BigQuery across 3 services, adding missed-lives detection queries and the platform's first integration test suite over its most critical registration flow.",
+        "Automated insurer endorsement file generation (GMC/GPA formats) behind a factory pattern with operator-editable configuration, cutting hours of manual sheet preparation per endorsement cycle down to near-zero.",
       ],
     },
     {
@@ -283,6 +331,85 @@ import {
   
   const projects = [
     {
+      name: "Graph Path Guru",
+      description:
+        "A full-stack MERN app that visualizes 6 shortest-path algorithms step by step on a drag-and-drop editor. The algorithms now run as a Rust WebAssembly module for fast, in-browser execution.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "rust",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "webassembly",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: graphpath,
+      source_code_link: "https://github.com/H-SM/GraphPathGuru",
+      url_link: "https://graph-path-guru-test.vercel.app/",
+      // prod : true
+    },
+    {
+      name: "ExCarte",
+      description:
+        "A natural-language city discovery app that matches free-text queries like 'cafes with outdoor seating' against 1,500+ curated Bengaluru venues, using a self-hosted LLM for relevance scoring.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "fastapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "llm",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: excarte,
+      source_code_link: "https://github.com/H-SM/ExCarte",
+      url_link: "https://ex-carte.vercel.app/",
+    },
+    {
+      name: "U-Tour",
+      description:
+        "A scheduling gateway for a LIDAR-guided campus tour robot, using Redis-backed queues to serialise bookings, merge overlapping tours, and keep the robot's availability conflict-free.",
+      tags: [
+        {
+          name: "nodejs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redis",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: utour,
+      source_code_link: "https://github.com/H-SM/U-Tour",
+      url_link: "https://utour.vercel.app/",
+    },
+    {
       name: "AIEDS",
       description:
         "A tool which helps users control their learning process. AIDES harnesses the power of LLMs by providing text summaries and insights on user uploaded content. It also features active revision and quizing which makes learning even more fun and intuitive.",
@@ -307,29 +434,6 @@ import {
       image: aieds,
       source_code_link: "https://github.com/sakshamshahu/AIEDS",
       // url_link: "https://chatify-phi.vercel.app/",
-      // prod : true
-    },
-    {
-      name: "Graph Path Guru",
-      description:
-        "An interactive React app with a C++ backend for visualizing and understanding shortest path algorithms. It aids education, algorithm testing, and practical routing scenarios, catering to students, educators, researchers, and professionals.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "cpp",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: graphpath,
-      source_code_link: "https://github.com/H-SM/GraphPathGuru",
-      url_link: "https://graph-path-guru-test.vercel.app/",
       // prod : true
     },
     {

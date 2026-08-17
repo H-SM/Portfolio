@@ -67,7 +67,7 @@ const Navbar = () => {
                   className="w-[1rem] object-contain z-3"
                 /> */}
                 <div
-                  class="icon nav-icon-1 w-4 h-4"
+                  className="icon nav-icon-1 w-4 h-4"
                 >
                   <span></span>
                   <span></span>

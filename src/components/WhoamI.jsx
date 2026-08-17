@@ -19,17 +19,29 @@ const About = () => (
     viewport={{once: false, amount: 0.25}}
     className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}>
       <TypingText title="| Who am I?" textStyles="text-center"/>
+      {/* Old bio (pre-2024, kept for reference):
+      <motion.p variants={fadeIn('up','tween',0.2,1)} className='mt-[8px] font-normal sm:text-[29px] text-[18px] text-center text-secondary-white'>
+        Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhotra. </span>
+          A
+        <span className='font-extrabold text-white'> full-stack enthusiast</span>
+        , showcasing diverse
+        <span className='font-extrabold text-white'> projects on GitHub</span>
+        , exploring web software realms. Passionate about
+        <span className='font-extrabold text-white'> coding & creating innovative solutions. </span>
+        "Innovative lines of code intertwining to craft digital solutions that inspire and impact."
+      </motion.p>
+      */}
       <motion.p
       variants={fadeIn('up','tween',0.2,1)}
       className='mt-[8px] font-normal sm:text-[29px] text-[18px] text-center text-secondary-white'>
         Ayo, everyone! This is <span className='font-extrabold text-white'>Harman Singh Malhotra. </span>
-          A 
-        <span className='font-extrabold text-white'> full-stack enthusiast</span> 
-        , showcasing diverse 
-        <span className='font-extrabold text-white'> projects on GitHub</span>
-        , exploring web software realms. Passionate about 
-        <span className='font-extrabold text-white'> coding & creating innovative solutions. </span>
-        "Innovative lines of code intertwining to craft digital solutions that inspire and impact."
+          A
+        <span className='font-extrabold text-white'> backend-leaning full-stack engineer</span>
+        , shipping
+        <span className='font-extrabold text-white'> production microservices at scale</span>
+        , and still building for fun on the side. Passionate about
+        <span className='font-extrabold text-white'> systems that hold up under real traffic. </span>
+        "Code that ships, scales, and still makes sense six months later."
       </motion.p>
       <motion.img
       variants={fadeIn('up','tween',0.3,1)} src={arrowdown} alt='arw-dwn' className='w-[18px] h-[28px] object-contain mt-[28px]'>

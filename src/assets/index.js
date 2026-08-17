@@ -29,6 +29,11 @@ import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import postgres from "./tech/postgres.png";
 import firebase from "./tech/firebase.png";
+// New tech icons — drop the matching image files into src/assets/tech/ (any of .png/.svg/.jpg,
+// just keep these exact base names) and these imports resolve automatically.
+import redis from "./tech/redis.svg";
+import gcp from "./tech/gcp.svg";
+import prisma from "./tech/prisma.svg";
 import loop from "./company/loop.png";
 import hsm from "./hsm.gif";
 import hsmlogo from "./hsm_logo.png";
@@ -56,6 +61,8 @@ import CV from './CV/HSM_Resume.pdf'
 
 import chatify from "./chatify.png";
 import aieds from "./aieds.png";
+import excarte from "./excarte.png";
+import utour from "./utour.png";
 import chess from "./chess.png";
 import shirtcraft from "./shirtcraft.png";
 import facedetection from "./facedetection.png";
@@ -125,6 +132,11 @@ export {
   figma,
   postgres,
   firebase,
+  redis,
+  gcp,
+  prisma,
+  excarte,
+  utour,
   vercel,
   CV,
   discord,

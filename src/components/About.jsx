@@ -28,8 +28,9 @@ const About = () => {
             variants={fadeIn('left', 'tween', 0.25, 1)}
             className='flex-[0.75] flex justify-center flex-col'>
 
-            <TypingText title="| My Introduction" />
-            <TitleText title={<>A Quick Overview</>} />
+            {/* Old: <TypingText title="| My Introduction" /> <TitleText title={<>A Quick Overview</>} /> */}
+            <TypingText title="| Fast Facts" />
+            <TitleText title={<>The Short Version</>} />
             <div className='mt-[31px] flex flex-col max-w-[370px] gap-[24px]'>
               {startingFeatures.map((feature, index) => (
                 <StartSteps

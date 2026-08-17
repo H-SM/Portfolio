@@ -78,7 +78,7 @@ const Works = () => {
       </div>
 
       <div className='flex justify-center items-center mt-20 md:mx-[60px]'>
-        <div className='grid lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-4 md:grid-cols-2 lg:gap-7 gap-[1rem] mb-12 justify-center items-center'>
+        <div className='flex flex-wrap lg:gap-7 gap-[1rem] mb-12 justify-center items-center mx-20'>
       {projects.map((project, index) => (
         <ProjectCard key={index} index={index} {...project}/>
       ))}

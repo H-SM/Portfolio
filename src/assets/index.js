@@ -57,7 +57,7 @@ import spotify from "./spotify.png";
 
 
 import getstarted from './get-started.png';
-import CV from './CV/HSM_Resume.pdf'
+import CV from './CV/HarmanSinghMalhotra.pdf'
 
 import chatify from "./chatify.png";
 import aieds from "./aieds.png";
